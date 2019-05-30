@@ -37,9 +37,9 @@ let load_board () =
    argument and returns the i-th cell of the current row of the input
    board.
 
-   This algorithm only works for a shift left operation. The 'arr'
-   function is customized for each direction so the order of the cells
-   appears to be a left shift movement. *)
+   This algorithm only works for a shift left operation. The 'get'
+   parameter is a function customized for each direction so the order
+   of the cells appears to be a left shift movement. *)
 
 let shift set get =
 

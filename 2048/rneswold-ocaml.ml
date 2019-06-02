@@ -116,7 +116,11 @@ let cell_to_int = function
 let print_brd brd =
   for ii = 0 to 3 do
     for jj = 0 to 3 do
-      Printf.printf " %4d" @@ cell_to_int brd.(jj + ii * 4)
+      Printf.printf "%d " @@ cell_to_int brd.(jj + ii * 4)
     done;
     print_newline ()
   done
+
+let () =
+  let brd, mv = load_board () in
+  perform_move brd mv |> print_brd

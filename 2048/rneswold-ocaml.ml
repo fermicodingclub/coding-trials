@@ -37,9 +37,9 @@ let load_board () =
    argument and returns the i-th cell of the current row of the input
    board.
 
-   This algorithm only works for a shift left operation. The 'arr'
-   function is customized for each direction so the order of the cells
-   appears to be a left shift movement. *)
+   This algorithm only works for a shift left operation. The 'get'
+   parameter is a function customized for each direction so the order
+   of the cells appears to be a left shift movement. *)
 
 let shift set get =
 
@@ -116,7 +116,11 @@ let cell_to_int = function
 let print_brd brd =
   for ii = 0 to 3 do
     for jj = 0 to 3 do
-      Printf.printf " %4d" @@ cell_to_int brd.(jj + ii * 4)
+      Printf.printf "%d " @@ cell_to_int brd.(jj + ii * 4)
     done;
     print_newline ()
   done
+
+let () =
+  let brd, mv = load_board () in
+  perform_move brd mv |> print_brd

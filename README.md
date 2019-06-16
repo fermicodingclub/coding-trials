@@ -17,3 +17,9 @@
 [queens](queens)
 
 [https://open.kattis.com/problems/queens](https://open.kattis.com/problems/queens)
+
+## 2019-06-18 Magical Knight's Tour
+
+[magicalKnightsTour](magicalKnightsTour)
+
+[https://open.kattis.com/problems/magicalmysteryknight](https://open.kattis.com/problems/magicalmysteryknight)

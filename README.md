@@ -23,3 +23,9 @@
 [magicalKnightsTour](magicalKnightsTour)
 
 [https://open.kattis.com/problems/magicalmysteryknight](https://open.kattis.com/problems/magicalmysteryknight)
+
+## 2019-06-25 Artwork
+
+[artwork](artwork)
+
+[https://open.kattis.com/problems/artwork](https://open.kattis.com/problems/artwork)

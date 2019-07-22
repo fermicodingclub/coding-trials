@@ -6,6 +6,6 @@
 
 [retzke-cl.lisp](retzke-cl.lisp)
 
-## Beau Harrison - OpenLisp
+## Beau Harrison - TypeScript
 
 [harrison-ts](harrison-ts)

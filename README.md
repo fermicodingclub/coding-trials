@@ -29,3 +29,9 @@
 [artwork](artwork)
 
 [https://open.kattis.com/problems/artwork](https://open.kattis.com/problems/artwork)
+
+## 2019-07-16 Grid
+
+[grid](grid)
+
+[https://open.kattis.com/problems/grid](https://open.kattis.com/problems/grid)
